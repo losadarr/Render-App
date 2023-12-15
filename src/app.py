@@ -36,7 +36,9 @@ server = app.server
 #response = requests.get(url)
 #data = response.json()
 
-ruta_json = 'data/response.json'
+ruta_json = '/response.json'
+
+
 
 #if os.path.exists(ruta_json):
     # Leer el archivo JSON
