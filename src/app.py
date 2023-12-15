@@ -36,7 +36,7 @@ server = app.server
 #response = requests.get(url)
 #data = response.json()
 
-ruta_json = '/response.json'
+ruta_json = 'response.json'
 
 
 
