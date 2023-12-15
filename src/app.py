@@ -38,12 +38,14 @@ server = app.server
 
 ruta_json = 'data/response.json'
 
-if os.path.exists(ruta_json):
+#if os.path.exists(ruta_json):
     # Leer el archivo JSON
-    with open(ruta_json, 'r') as file:
+with open(ruta_json, 'r') as file:
         data = json.load(file)
 
 # Crear un DataFrame vacío para almacenar los datos
+
+
 rows =[]
 
 # Recorrer los datos de la API y construir el DataFrame
